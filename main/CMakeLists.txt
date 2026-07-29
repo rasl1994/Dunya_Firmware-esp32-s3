@@ -12,10 +12,18 @@ idf_component_register(
         st7701
         rgb_display
         intro_animation
-        ui_home_dynamic
-        touch_gt911
         nvs_flash
         esp_psram
+
+        touch_gt911
+        ui_home_dynamic
+		service_screen
+        ina226
+        heater_control
+        max6675
+
+        app_controller
+
 )
 
 # spiffs_create_partition_image(storage ../spiffs FLASH_IN_PROJECT)

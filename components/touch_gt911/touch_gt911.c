@@ -25,7 +25,7 @@
 #define GT911_POINT_SIZE 8
 #define GT911_MAX_POINTS 5
 
-#define GT911_RELEASE_DEBOUNCE_SAMPLES 4
+#define GT911_RELEASE_DEBOUNCE_SAMPLES 6
 
 static const char *TAG = "touch_gt911";
 

@@ -32,12 +32,15 @@
 #define BOARD_IOX_TP_RESET   0
 #define BOARD_GPIO_TP_INT    GPIO_NUM_16
 
+#define BOARD_GPIO_HEATER_PWM  GPIO_NUM_4
+
 /* Direct ESP32-S3 PWM pin */
 #define BOARD_GPIO_BL_PWM              GPIO_NUM_6
 
 /* TCA9554 output numbers */
 #define BOARD_IOX_BL_ENABLE             1
 #define BOARD_IOX_LCD_RESET             2
+#define BOARD_IOX_HEATER_ENABLE         3
 #define BOARD_IOX_DISP_PWR              7
 
 /* LEDC configuration */
@@ -72,3 +75,4 @@
 #define BOARD_GPIO_LCD_R3     GPIO_NUM_8
 #define BOARD_GPIO_LCD_R4     GPIO_NUM_18
 #define BOARD_GPIO_LCD_R5     GPIO_NUM_17
+
